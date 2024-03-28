@@ -6,5 +6,5 @@ export default async function connect() {
   const mongoUri = mongoServer.getUri();
 
   await mongoose.connect(mongoUri, { dbName: process.env.DBNAME });
-  console.log(`MongoDB successfully connected to ${mongoUri}`);
+  // console.log(`MongoDB successfully connected to ${mongoUri}`);
 }

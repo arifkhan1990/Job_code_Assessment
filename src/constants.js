@@ -1,5 +1,6 @@
 export const DB_NAME = "boo-backend-db";
-export const DB_URL = process.env.DB_URL;
+export const DB_URL =
+  "mongodb+srv://arifentertech19:3efGv1S0GGCiEnZu@cluster0.wwquo0l.mongodb.net/boo-backend-db?retryWrites=true&w=majority";
 export const fakeUsers = {
   username: "arif78",
   fullName: "arif78",

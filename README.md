@@ -26,3 +26,17 @@
 
 
  -> project run command :  npm run dev
+
+
+NOTE:- For api testing purposes by mongodb memory server , some dependency
+
+
+url - /api/v1/comments/create 
+dependency - postId, userId
+
+url - /api/v1/comments/:commentId/like-unlike
+dependency - commentId
+-
+
+url - /api/v1/comments/:commentId/vote-personality-systems
+dependency - commentId
